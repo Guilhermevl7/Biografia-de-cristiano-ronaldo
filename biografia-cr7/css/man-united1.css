@@ -1,0 +1,72 @@
+.dropbtn{
+    background-color: transparent;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    padding: 20px;
+    font-size: 40px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 300px;
+}
+.dropdown-content a{
+    color: white;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: transparent;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown:hover .dropbtn{
+    background-color: transparent;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-shadow:black 0.1em 0.1em 0.2em;
+    font-style: oblique;
+
+}
+.conteudo{
+    position: absolute;
+    left: 300px;
+    height: 100%;
+    width: calc(100% - 300px);
+    display: flex;
+}
+body{
+    background-image: url(/imagens/Manchester\ United.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    color:white;
+    text-shadow:black 0.1em 0.1em 0.2em;
+    font-style: oblique; 
+}
+p{
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    text-shadow:black 0.1em 0.1em 0.2em;
+    font-style: oblique;
+    
+}
+ul{
+    font-weight: 600;
+    color: transparent;
+}

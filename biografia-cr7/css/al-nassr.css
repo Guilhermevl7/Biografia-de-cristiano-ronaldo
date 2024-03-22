@@ -1,0 +1,76 @@
+.dropbtn{
+    background-color: transparent;
+    color: black;
+    padding: 20px;
+    font-size: 40px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 300px;
+}
+.dropdown-content a{
+    color: black;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: transparent;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown:hover .dropbtn{
+    background-color: transparent;
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-shadow:yellow 0.1em 0.1em 0.2em;
+    font-style: oblique;
+
+}
+.conteudo{
+    position: absolute;
+    left: 300px;
+    height: 100%;
+    width: calc(100% - 300px);
+    display: flex;
+}
+body{
+    background-image: url(/imagens/al-nassr.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    color:black;
+    text-shadow:yellow 0.1em 0.1em 0.2em;
+    font-style: oblique; 
+}
+h2{
+    color:black;
+    text-shadow:yellow 0.1em 0.1em 0.2em;
+    font-style: oblique;
+}
+p{
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    text-shadow:yellow 0.1em 0.1em 0.2em;
+    font-style: oblique;
+    
+}
+ul{
+    font-weight: 600;
+    color: transparent;
+}
